@@ -11,7 +11,7 @@ form.addEventListener("submit", e => {
     const room = roomInput.value;
     console.log(messageInput);
     if (message === "") return;
-
+ 
     displayMessage(message);
     messageInput.value = "";
 });
